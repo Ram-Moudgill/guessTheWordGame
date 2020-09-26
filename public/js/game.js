@@ -5,11 +5,11 @@ const inputField=document.getElementById('in-input');
 const header=document.querySelector('.Main-header');
 const subBtn=document.getElementById('subbtn');
 let sWord;
-if(window.location.href==="http://localhost:3000/game/Easy")
+if(window.location.href.endsWith('easy'))
 {
 sWord=['car','mug','rat','fat','set','cat','mat','root','get','job','log','yet','met','bot'];
 }
-else if(window.location.href==="http://localhost:3000/game/medium")
+else if(window.location.href.endsWith('medium'))
 {
     sWord=['most','star','best','scar','python','hard','soft','plan','clan','slot','boot','shoe','chess','bike','right','wrong','side','left'];
     header.style.background='rgb(236, 0, 140)';
