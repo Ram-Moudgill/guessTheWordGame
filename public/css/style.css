@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.Main-header{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 27, 27, 0.856);
+}
+.Main-header h2
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+section{
+    height: 88vh;
+    background-color: rgba(90, 90, 90, 0.856);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-div
+{
+    height: 40%;
+    border: 2px solid white;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn
+{
+    background-color: rgba(29, 27, 27, 0.856);
+    width: 17%;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    transform: scaleX(1.1);
+    font-weight: 500;
+    font-size-adjust: inherit;
+}
+.Main-div h2
+{
+    margin-bottom: 26px;
+}
